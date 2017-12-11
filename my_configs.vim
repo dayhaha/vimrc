@@ -27,12 +27,3 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
-
-" rst file
-let proj1 = { 'path': '/paddle/doc/tutorials/mnist/index_cn.rst',}
-let g:riv_projects = [proj1]
-
-" InstantRst
-let g:instant_rst_port = 8080
-let g:instant_rst_additional_dirs = ['/paddle/doc/tutorials/mnist/src', '/paddle/demo/mnist']
